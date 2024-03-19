@@ -120,7 +120,7 @@ def test_collatz_seq():
             print(f"Test case failed for N = {N}: Expected {expected_output}, but got {actual_output}")
 
 ```
-# Run the test cases
+Run the test cases
 test_collatz_seq()
 
 This code defines a function test_collatz_seq() which contains all the test cases along with their expected outputs. For each test case, it runs the collatz_seq() function and compares the actual output with the expected output. If they match, it prints a message indicating that the test case passed. If they don't match, it prints a message indicating that the test case failed along with the expected and actual outputs.
