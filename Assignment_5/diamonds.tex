@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\title{Developing Strategies for the Bidding Card Game \textit{Diamonds} with GenAI}
+\author{Priya Mandot}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+The game of Diamonds is a two-player strategic card game where players bid over diamond cards to score points. The bidding process involves players selecting a card from their hand to represent their bid, and the player with the highest bid wins the diamond card. However, if both players bid the same value, the diamond card is divided equally between them.
+
+In this report, we explore the development of strategies for playing Diamonds with the assistance of artificial intelligence, specifically ChatGPT. By leveraging ChatGPT's capabilities, we aim to enhance our understanding of optimal bidding strategies and improve our gameplay performance.
+
+\section{Problem Statement}
+Developing effective strategies for the Diamonds game poses several challenges. One key challenge is the complexity of bidding decisions. Players must carefully evaluate the value of each diamond card and determine the optimal bid to maximize their score while preventing their opponent from gaining an advantage. Additionally, the dynamic nature of the game requires adaptability, as bidding strategies may need to be adjusted based on the cards in hand and the bidding behavior of the opponent.
+
+\section{Teaching GenAI the Game}
+To teach ChatGPT the rules of the Diamonds game, we provided it with a comprehensive understanding of the game mechanics. This included explaining the rules for bidding, collecting diamond cards, and scoring points. ChatGPT was trained to simulate gameplay by generating bid decisions based on the current game state and evaluating potential outcomes to inform its bidding strategy.
+
+\section{Bidding Strategies}
+Here are some strategies that players might employ to increase their chances of winning the Diamonds game:
+
+\begin{enumerate}
+    \item \textbf{Evaluate the Value of Each Bid}: Consider the value of the diamond card being auctioned and assess its importance in relation to your overall strategy. High-value diamond cards may be worth bidding more aggressively for, especially if they contribute significantly to your total points.
+    
+    \item \textbf{Manage Your Hand}: Keep track of the cards in your hand and strategize which card to use for bidding in each round. Try to retain high-ranking cards for bidding on valuable diamond cards, while also being mindful of using lower-ranking cards strategically.
+    
+    \item \textbf{Observe Your Opponent's Bidding Patterns}: Pay attention to your opponent's bidding tendencies and adjust your own bidding strategy accordingly. If they consistently bid aggressively on certain diamond cards, you may choose to bid more conservatively to avoid over-committing resources.
+    
+    \item \textbf{Timing and Conservation}: Pace your bidding throughout the game to ensure you have enough resources to bid effectively in later rounds. Avoid overbidding too early in the game, as it may limit your options later on when more valuable diamond cards are revealed.
+    
+    \item \textbf{Risk Management}: Assess the risk versus reward of each bid carefully. While bidding aggressively can lead to acquiring valuable diamond cards, it also carries the risk of losing bidding wars and potentially wasting high-ranking cards.
+    
+    \item \textbf{Adaptability}: Stay flexible and be prepared to adjust your strategy based on the cards available and the actions of your opponent. Being adaptable allows you to capitalize on opportunities and mitigate risks as they arise.
+    
+    \item \textbf{Maximize Points}: Focus on accumulating diamond cards with higher face values to maximize your point total. Prioritize bidding on diamond cards that offer the greatest potential for increasing your overall score.
+\end{enumerate}
+
+By incorporating these strategies into your gameplay and remaining attentive to the dynamics of each bidding round, you can enhance your chances of success in the Diamonds game.
+
+\section{Iterating Upon Strategy}
+The development of bidding strategies for Diamonds involved an iterative process of refinement. Initial strategies were implemented and tested against ChatGPT in simulated gameplay scenarios. Gameplay data, including bid outcomes and final scores, was collected to evaluate the effectiveness of the strategies. Based on the analysis of this data, adjustments were made to the bidding strategy to improve performance and adapt to varying game conditions.
+
+\section{Analysis and Conclusion}
+Through interactions with ChatGPT, we gained valuable insights into optimal bidding strategies for the Diamonds game. Analysis of bidding outcomes revealed patterns and trends that informed strategic decision-making. By iteratively refining our bidding strategies based on these insights, we achieved significant improvements in gameplay performance. Overall, ChatGPT proved to be a valuable tool for developing effective strategies for the Diamonds game, and its continued refinement holds promise for further enhancing our gameplay experience.
+We also generated a \href{https://colab.research.google.com/drive/1_RaeWG4HaKHGiGgkrC30edglX2zf0qbu?usp=sharing}{simple python code} so the user can play this game with the computer.
+\end{document}
